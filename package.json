@@ -1,0 +1,23 @@
+{
+  "name": "mcp-client",
+  "version": "1.0.0",
+  "description": "Natural language client for MCP server using Claude API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "@odenalexbs/mcp-sample-server": "^1.0.3",
+    "dotenv": "^17.2.3",
+    "openai": "^6.15.0"
+  }
+}
