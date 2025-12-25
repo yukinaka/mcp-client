@@ -175,9 +175,12 @@ AIが結果を解釈
 このクライアントは、以下のMCPサーバーと接続しています:
 
 - **@odenalexbs/mcp-sample-server**
-  - `get_current_time`: 現在時刻の取得
-  - `calculate`: 四則演算の実行
-  - その他のツール
+  - npmパッケージ: [@odenalexbs/mcp-sample-server](https://www.npmjs.com/package/@odenalexbs/mcp-sample-server)
+  - GitHubリポジトリ: [yukinaka/mcp-sample-server](https://github.com/yukinaka/mcp-sample-server)
+  - ローカルパス: `../mcp-sample-server/`
+  - 提供ツール:
+    - `get_current_time`: 現在時刻の取得
+    - `calculate`: 四則演算の実行
 
 ### MCPサーバーの接続設定
 
